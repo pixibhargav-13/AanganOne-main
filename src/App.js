@@ -400,129 +400,87 @@ function App() {
             </div>
             <span>Impact & Benefits</span>
           </div>
-
-          <div className="results-header">
-            <div className="results-header-text">
-              <h2 className="results-title">Measurable Results for Your Society</h2>
-              <p className="results-subtitle">Every workflow gets a tangible upgrade—operations, finance, communication, and resident happiness.</p>
-              <div className="results-tags">
-                <span>Operations</span>
-                <span>Finance</span>
-                <span>Security</span>
-                <span>Engagement</span>
+          <h2 className="section-title">Measurable Results for Your Society</h2>
+          <p className="section-subtitle">Join hundreds of societies already experiencing the transformation</p>
+          
+          <div className="results-grid">
+            <div className="result-card">
+              <div className="result-icon-wrapper">
+                <img src="/Frame 76.svg" alt="Time" className="result-icon-img" />
               </div>
+              <div className="result-percentage-label">
+                <span className="result-percentage">75%</span>
+                <span className="result-label">Time Saved</span>
+              </div>
+              <div className="result-desc">Streamline operations and eliminate manual paperwork with automated workflows.</div>
             </div>
-            <div className="results-summary-card">
-              <p>Average go-live time</p>
-              <h3>12 days</h3>
-              <span className="summary-pill">Fast Implementation</span>
-              <ul>
-                <li>Dedicated success POD</li>
-                <li>Staff onboarding toolkit</li>
-                <li>Resident adoption playbook</li>
-              </ul>
+            <div className="result-card">
+              <div className="result-icon-wrapper">
+                <img src="/Frame 76.svg" alt="Time" className="result-icon-img" />
+              </div>
+              <div className="result-percentage-label">
+                <span className="result-percentage">85%</span>
+                <span className="result-label">Fewer Complaints</span>
+              </div>
+              <div className="result-desc">Improve resident satisfaction through faster response times and transparent communication.</div>
             </div>
-          </div>
-
-          <div className="results-showcase">
-            <div className="results-hero-card">
-              <div className="hero-card-top">
-                <span>Transformation Index</span>
-                <strong>92%</strong>
-                <p>Societies reach full automation in under 60 days with guided workflows and AI nudges.</p>
-                <div className="hero-progress">
-                  <div className="hero-progress-bar">
-                    <span style={{ width: '92%' }}></span>
-                  </div>
-                  <small>Live coverage across complaints, finances, and security gates.</small>
-                </div>
+            <div className="result-card">
+              <div className="result-icon-wrapper">
+                <img src="/Frame 76.svg" alt="Time" className="result-icon-img" />
               </div>
-              <div className="hero-stats">
-                <div>
-                  <h4>4.8/5</h4>
-                  <p>Resident happiness score post rollout.</p>
-                </div>
-                <div>
-                  <h4>38 hrs</h4>
-                  <p>Weekly time reclaimed by management teams.</p>
-                </div>
-                <div>
-                  <h4>3x</h4>
-                  <p>Faster financial approvals with shared ledgers.</p>
-                </div>
+              <div className="result-percentage-label">
+                <span className="result-percentage">90%</span>
+                <span className="result-label">Cost Reduction</span>
               </div>
+              <div className="result-desc">Cut operational costs by automating routine tasks and reducing administrative overhead.</div>
             </div>
-
-            <div className="results-grid">
-              <div className="result-card">
-                <div className="result-icon-wrapper">
-                  <img src="/Frame 76.svg" alt="Time" className="result-icon-img" />
-                </div>
-                <div className="result-metric">
-                  <strong>75%</strong>
-                  <span>Time Saved</span>
-                </div>
-                <p>Replace paperwork with automated workflows for residents, staff, and committees.</p>
+            <div className="result-card">
+              <div className="result-icon-wrapper">
+                <img src="/Frame 76.svg" alt="Time" className="result-icon-img" />
               </div>
-              <div className="result-card">
-                <div className="result-icon-wrapper">
-                  <img src="/Frame 76.svg" alt="Complaints" className="result-icon-img" />
-                </div>
-                <div className="result-metric">
-                  <strong>85%</strong>
-                  <span>Fewer Complaints</span>
-                </div>
-                <p>Transparent tracking with escalations reduces repeat calls and resident frustration.</p>
+              <div className="result-percentage-label">
+                <span className="result-percentage">100%</span>
+                <span className="result-label">Digital Transformation</span>
               </div>
-              <div className="result-card">
-                <div className="result-icon-wrapper">
-                  <img src="/Frame 76.svg" alt="Cost" className="result-icon-img" />
-                </div>
-                <div className="result-metric">
-                  <strong>90%</strong>
-                  <span>Cost Reduction</span>
-                </div>
-                <p>Smart budgeting and vendor visibility plug revenue leakage and ad-hoc spends.</p>
-              </div>
-              <div className="result-card">
-                <div className="result-icon-wrapper">
-                  <img src="/Frame 76.svg" alt="Digital" className="result-icon-img" />
-                </div>
-                <div className="result-metric">
-                  <strong>100%</strong>
-                  <span>Digital Adoption</span>
-                </div>
-                <p>Every update lives in the app—no WhatsApp chaos or missed notices.</p>
-              </div>
+              <div className="result-desc">Complete shift to paperless operations with real-time updates and cloud-based access.</div>
             </div>
           </div>
 
-          <div className="results-pillars">
-            <div className="results-pillar-card">
-              <div className="results-pillar-icon">
-                <img src="/Frame 84.svg" alt="Cloud" className="feature-icon-img" />
+          <div className="results-features">
+            <div className="result-feature">
+              <div className="feature-icon-wrapper">
+                <img src="/Frame 84.svg" alt="Icon" className="feature-icon-img" />
               </div>
-              <div>
-                <h4>Always-on Access</h4>
-                <p>Secure cloud platform with uptime monitoring, SSO, and audit trails.</p>
-              </div>
-            </div>
-            <div className="results-pillar-card">
-              <div className="results-pillar-icon">
-                <img src="/Frame 84.svg" alt="Updates" className="feature-icon-img" />
-              </div>
-              <div>
-                <h4>Live Updates</h4>
-                <p>Push notifications and digest emails keep every stakeholder aligned.</p>
+              <div className="feature-content">
+                <h4 className="feature-title">Cloud-Based Access</h4>
+                <p className="feature-text">Access from anywhere, anytime on any device</p>
               </div>
             </div>
-            <div className="results-pillar-card">
-              <div className="results-pillar-icon">
-                <img src="/Frame 84.svg" alt="Support" className="feature-icon-img" />
+            <div className="result-feature">
+              <div className="feature-icon-wrapper">
+                <img src="/Frame 84.svg" alt="Icon" className="feature-icon-img" />
               </div>
-              <div>
-                <h4>White-glove Support</h4>
-                <p>Dedicated success managers plus in-app chat for quick resolutions.</p>
+              <div className="feature-content">
+                <h4 className="feature-title">Real-Time Updates</h4>
+                <p className="feature-text">Instant notifications keep everyone informed</p>
+              </div>
+            </div>
+            <div className="result-feature">
+              <div className="feature-icon-wrapper">
+                <img src="/Frame 84.svg" alt="Icon" className="feature-icon-img" />
+              </div>
+              <div className="feature-content">
+                <h4 className="feature-title">Easy Onboarding</h4>
+                <p className="feature-text">Get your entire society up and running in days</p>
+              </div>
+            </div>
+            <div className="result-feature">
+              <div className="feature-icon-wrapper">
+                <img src="/Frame 84.svg" alt="Icon" className="feature-icon-img" />
+              </div>
+              <div className="feature-content">
+                <h4 className="feature-title">Dedicated Support</h4>
+                <p className="feature-text">Technical assistance whenever you need it</p>
               </div>
             </div>
           </div>
