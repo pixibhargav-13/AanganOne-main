@@ -661,7 +661,7 @@ function App() {
               </div>
               <div className="contact-info">
                 <div className="contact-title">Free Demo</div>
-                <div className="contact-detail">+91 76546 48592</div>
+                <div className="contact-detail">+91 8866448967</div>
               </div>
             </div>
             <div className="contact-card">
