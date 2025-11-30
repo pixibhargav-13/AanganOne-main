@@ -672,7 +672,7 @@ function App() {
               </div>
               <div className="contact-info">
                 <div className="contact-title">Email</div>
-                <div className="contact-detail">sales@aagnonone.com</div>
+                <div className="contact-detail">sales@aanganone.com</div>
               </div>
             </div>
             <div className="contact-card">
