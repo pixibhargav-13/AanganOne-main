@@ -72,7 +72,8 @@ function App() {
       <header className="header">
         <div className="header-container">
           <div className="logo-section">
-            <img src="/WhatsApp Image 2025-11-23 at 23.56.05_7b54941a.jpg" alt="Aanganone Logo" className="logo-icon" />
+            <img src="/Aangan One Logo.svg" alt="Aanganone Logo" className="logo-icon" />
+            <span className="logo-text">AanganOne</span>
           </div>
           <button className="mobile-menu-toggle" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
             <span className={mobileMenuOpen ? "hamburger open" : "hamburger"}>
@@ -132,7 +133,7 @@ function App() {
           <div className="why-choose-badge">
             <span>Why Choose </span>
             <span className="badge-logo-text">
-              <img src="/WhatsApp Image 2025-11-23 at 23.56.05_7b54941a.jpg" alt="Aanganone" className="badge-logo-img" />
+              <img src="/Aangan One Logo.svg" alt="Aanganone" className="badge-logo-img" />
             </span>
           </div>
           <h2 className="section-title">Why Societies Choose Aanganone?</h2>
@@ -239,7 +240,7 @@ function App() {
                 <div className="about-content-right">
                   <div className="about-main-card">
                     <div className="about-logo">
-                      <img src="/WhatsApp Image 2025-11-23 at 23.56.05_7b54941a.jpg" alt="Aanganone" className="about-logo-img" />
+                      <img src="/Aangan One Logo.svg" alt="Aanganone" className="about-logo-img" />
                     </div>
                     <p className="about-description">
                       Aanganone is an AI-powered society management system built to make community living smarter, more connected, and more peaceful. Whether it's handling complaints, scheduling staff, managing finances, or organizing events – Aanganone does it all in one place.
@@ -661,7 +662,7 @@ function App() {
               </div>
               <div className="contact-info">
                 <div className="contact-title">Free Demo</div>
-                <div className="contact-detail">+91 8866448967</div>
+                <div className="contact-detail">+91 76546 48592</div>
               </div>
             </div>
             <div className="contact-card">
@@ -672,7 +673,7 @@ function App() {
               </div>
               <div className="contact-info">
                 <div className="contact-title">Email</div>
-                <div className="contact-detail">sales@aanganone.com</div>
+                <div className="contact-detail">sales@aagnonone.com</div>
               </div>
             </div>
             <div className="contact-card">
