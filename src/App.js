@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
+import PrivacyPolicy from './PrivacyPolicy';
 
-function App() {
+function HomePage() {
   const [expandedFAQ, setExpandedFAQ] = useState(0);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [formData, setFormData] = useState({
@@ -662,7 +664,7 @@ function App() {
               </div>
               <div className="contact-info">
                 <div className="contact-title">Free Demo</div>
-                <div className="contact-detail">+91 76546 48592</div>
+                <div className="contact-detail">+91 88664 48967</div>
               </div>
             </div>
             <div className="contact-card">
@@ -673,7 +675,7 @@ function App() {
               </div>
               <div className="contact-info">
                 <div className="contact-title">Email</div>
-                <div className="contact-detail">sales@aagnonone.com</div>
+                <div className="contact-detail">sales@aanganone.com</div>
               </div>
             </div>
             <div className="contact-card">
@@ -801,6 +803,8 @@ function App() {
                   <span className="bullet">•</span>
                   <a href="#features">Features</a>
                   <span className="bullet">•</span>
+                  <Link to="/privacy">Privacy Policy</Link>
+                  <span className="bullet">•</span>
                   <a href="#contact">Contact</a>
                 </div>
               </div>
@@ -814,6 +818,17 @@ function App() {
         </div>
       </footer>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
+      </Routes>
+    </Router>
   );
 }
 
