@@ -27,7 +27,7 @@ function PrivacyPolicy() {
             <span>Privacy Policy</span>
           </div>
           <h1 className="section-title">Your Home, Your Data</h1>
-          <p className="section-subtitle">At AanganOne, we believe that the privacy of your home extends to the digital tools you use to manage it. This Privacy Policy outlines how we collect, use, and protect your information.</p>
+          <p className="section-subtitle">At Aanganone, we believe that the privacy of your home extends to the digital tools you use to manage it. This Privacy Policy explains how we collect, use, and protect your information. We view ourselves not just as a software provider, but as a Data Fiduciary — a trusted custodian of your digital information, in accordance with India's Digital Personal Data Protection Act, 2023 (DPDP Act).</p>
           
           <div className="privacy-content">
             <div className="privacy-intro">
@@ -64,36 +64,36 @@ function PrivacyPolicy() {
 
             <div className="privacy-section">
               <h2>1. Information We Collect (And Why)</h2>
-              <p>We collect the following categories of personal data (as defined under the DPDP Act, 2023):</p>
+              <p>We collect the following categories of personal data, strictly limited to what is necessary for providing society management services:</p>
               
               <div className="privacy-item">
                 <h3>Identity Data</h3>
-                <p><strong>What:</strong> Name, Flat/Unit Number, Vehicle Number, and Resident Type (Owner/Tenant)</p>
-                <p><strong>Purpose:</strong> To verify your identity as a legitimate resident</p>
+                <p> Name, Flat/Unit Number, Vehicle Number, and Resident Type (Owner/Tenant/Staff).</p>
+                <p><strong>Purpose:</strong> To verify your identity as a legitimate member of the society and enable secure access.</p>
               </div>
 
               <div className="privacy-item">
                 <h3>Contact Data</h3>
-                <p><strong>What:</strong> Phone number and Email address</p>
-                <p><strong>Purpose:</strong> To send Visitor notifications, OTPs for login, and maintenance invoices</p>
+                <p>Phone number and Email address.</p>
+                <p><strong>Purpose:</strong> To send login OTPs, visitor notifications, announcements, maintenance alerts, and invoices.</p>
               </div>
 
               <div className="privacy-item">
                 <h3>Visitor Data</h3>
-                <p><strong>What:</strong> Names and phone numbers of guests you invite</p>
-                <p><strong>Purpose:</strong> To generate Gate Passes and facilitate entry</p>
+                <p>Names and phone numbers of guests you invite, along with entry and exit timestamps.</p>
+                <p><strong>Purpose:</strong> To generate gate passes, facilitate secure entry, and maintain visitor logs.</p>
               </div>
 
               <div className="privacy-item">
                 <h3>Financial Data</h3>
-                <p><strong>What:</strong> Payment history and dues status</p>
-                <p><strong>Note:</strong> We do NOT store full credit card or banking details; these are processed by our PCI-DSS compliant payment partners</p>
+                <p>Maintenance payment history and dues status.</p>
+                <p><strong>Note:</strong> Aanganone does not store full credit card, debit card, or banking details. Payments (if enabled) are processed by PCI-DSS compliant third-party payment gateways.</p>
               </div>
 
               <div className="privacy-item">
                 <h3>Device Data</h3>
-                <p><strong>What:</strong> Device ID, IP address, and Operating System</p>
-                <p><strong>Purpose:</strong> For security logs, fraud prevention, and app analytics</p>
+                <p>Device ID, IP address, operating system, and app version.</p>
+                <p><strong>Purpose:</strong> Security logging, fraud prevention, troubleshooting, and analytics.</p>
               </div>
             </div>
 
@@ -102,43 +102,43 @@ function PrivacyPolicy() {
               
               <div className="privacy-item">
                 <h3>Contacts (Optional)</h3>
-                <p>We request access to your contacts solely to help you select a guest to invite without typing their number manually. This data is not synced to our servers unless you send an invite.</p>
+                <p>Used only to help you select a guest's phone number without manual entry. Contact data is not synced to our servers unless you explicitly send an invite.</p>
               </div>
 
               <div className="privacy-item">
                 <h3>Location (Optional)</h3>
-                <p><strong>Approximate:</strong> Used to verify you are at the main gate for features like "Bluetooth Unlock"</p>
-                <p><strong>Precise:</strong> Used strictly for the "Emergency SOS" feature to share your location with security guards during a crisis. We do not track your movement history</p>
+                <p><strong>Approximate Location:</strong> Used to verify presence at the society gate for secure access features.</p>
+                <p><strong>Precise Location:</strong> Used only when you actively trigger the Emergency SOS feature, to share your location with security during emergencies. We do not track background location or movement history.</p>
               </div>
 
               <div className="privacy-item">
                 <h3>Camera & Photos (Optional)</h3>
-                <p>Used to allow you to upload photos to the Helpdesk (e.g., a photo of a broken pipe) or set a profile picture</p>
+                <p>Used to upload images for complaints (e.g., damaged facilities), scan QR codes, or set profile pictures.</p>
               </div>
 
               <div className="privacy-item">
-                <h3>Notifications</h3>
-                <p>Required to alert you when a visitor arrives</p>
+                <h3>Notifications (Required)</h3>
+                <p>Used to alert you about visitor arrivals, announcements, emergencies, and important society updates.</p>
               </div>
             </div>
 
             <div className="privacy-section">
               <h2>3. How We Share Your Data</h2>
-              <p>We do not sell, trade, or rent your personal identification information to third-party ad networks. We share data only in the following strictly limited circumstances:</p>
+              <p>We do not sell, trade, or rent your personal data to advertisers or third-party marketing networks. Data is shared only in the following limited circumstances:</p>
               
               <div className="privacy-item">
-                <h3>With your RWA/Management Committee</h3>
-                <p>Your name, vehicle details, and dues status are shared with the Society Administration as part of the core ERP functionality</p>
+                <h3>With Your RWA / Management Committee</h3>
+                <p>Your name, flat details, vehicle information, and dues status may be shared with the Society Administration as part of core society management functions.</p>
               </div>
 
               <div className="privacy-item">
                 <h3>With Service Providers</h3>
-                <p>We share necessary data with cloud hosting providers (e.g., AWS/Google Cloud) and payment gateways (e.g., Razorpay/PayU) to operate the service. All providers are bound by strict Data Processing Agreements</p>
+                <p>Limited data may be shared with trusted providers such as cloud hosting services (e.g., AWS / Google Cloud) and payment gateways, all bound by strict data processing agreements.</p>
               </div>
 
               <div className="privacy-item">
                 <h3>Legal Compliance</h3>
-                <p>We may disclose data if required by law (e.g., a court order or request from law enforcement agencies)</p>
+                <p>We may disclose data if required by law, court order, or lawful government request.</p>
               </div>
             </div>
 
@@ -147,32 +147,45 @@ function PrivacyPolicy() {
               
               <div className="privacy-item">
                 <h3>Visitor Logs</h3>
-                <p>Data regarding daily visitors (names, entry/exit times) is automatically purged or anonymized after 180 days, ensuring your guest history does not become a permanent record</p>
+                <p>Visitor entry and exit data is automatically deleted or anonymised after 180 days, unless required for legal or security purposes.</p>
               </div>
 
               <div className="privacy-item">
                 <h3>Account Deletion</h3>
-                <p>You may request the deletion of your account directly within the app settings. Upon deletion, your personal data will be removed from our active databases within 30 days, except for financial transaction records which must be retained for 7 years as per Indian Tax Laws</p>
+                <p>You may request account deletion from within the app or by contacting us. Personal data will be removed from active systems within 30 days, except financial transaction records, which are retained for up to 7 years as required by Indian law.</p>
               </div>
             </div>
 
             <div className="privacy-section">
               <h2>5. Security Measures</h2>
-              <p>We implement industry-standard security measures including SSL/TLS encryption for data in transit and AES-256 encryption for sensitive data at rest. Access to personal data is restricted to authorized employees and verified Management Committee members only on a "need-to-know" basis.</p>
+              <p>We implement industry-standard security practices, including SSL/TLS encryption for data in transit, AES-256 encryption for sensitive data at rest, role-based access controls, and restricted access on a need-to-know basis.</p>
             </div>
 
             <div className="privacy-section">
-              <h2>6. Contact Us</h2>
-              <p>For any questions regarding this policy or to exercise your rights under the DPDP Act (including grievance redressal), please contact our Data Protection Officer (DPO):</p>
+              <h2>6. Children's Privacy</h2>
+              <p>Aanganone is intended for use by individuals 18 years and above. We do not knowingly collect personal data from children. If such data is identified, it will be deleted promptly.</p>
+            </div>
+
+            <div className="privacy-section">
+              <h2>7. Contact Us</h2>
+              <p>For questions regarding this Privacy Policy or to exercise your rights under the DPDP Act (including grievance redressal), please contact our Data Protection Officer:</p>
               
               <div className="contact-info-card">
                 <div className="contact-detail">
-                  <strong>Name:</strong> Manas Vadodaria
+                  <strong>Name:</strong> Aanganone Space Private Limited
                 </div>
                 <div className="contact-detail">
-                  <strong>Email:</strong> support@aanganone.com
+                  <strong>Email:</strong> info@aanganone.com
+                </div>
+                <div className="contact-detail">
+                  <strong>Address:</strong> Rajkot, Gujarat, India
                 </div>
               </div>
+            </div>
+
+            <div className="privacy-section">
+              <h2>8. Policy Updates</h2>
+              <p>This Privacy Policy may be updated from time to time to reflect changes in law or platform features. Significant updates will be communicated through the app or official channels.</p>
             </div>
           </div>
         </div>
