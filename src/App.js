@@ -803,7 +803,7 @@ function HomePage() {
                   <span className="bullet">•</span>
                   <a href="#features">Features</a>
                   <span className="bullet">•</span>
-                  <Link to="/privacy">Privacy Policy</Link>
+                  <Link to="/privacy-policy">Privacy Policy</Link>
                   <span className="bullet">•</span>
                   <a href="#contact">Contact</a>
                 </div>
@@ -826,7 +826,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
     </Router>
   );
